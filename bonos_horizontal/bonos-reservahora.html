@@ -1,0 +1,380 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="icon" type="image/x-icon" href="./assets/icons/favicon/favicon-bupa.png"/>
+    <link rel="stylesheet" href="css/libs/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/libs/owl.carousel.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <title>Cruz Blanca</title>
+  </head>
+  <body>
+    <div class="bonoreservahora-container">
+      <div class="brh-step1">
+        <div class="main-container">
+          <section>
+            <h1 class="section-title section-title_desk">Reservar hora</h1>
+          </section>
+          <div class="reservahora-title-detail hide-sm"> 
+            <p>Estás reservando con el <span class="txt-grey-dark ">Dr. Javiera Salvador, Traumatología.</span></p>
+            <p>La hora es para <span class="txt-blue-medium">Eduardo Rojas Calderón</span> en el <span class="txt-grey-dark ">Centro médico IntegraMédica Manquehue</span> </p>
+          </div>
+        </div>
+        <div class="reservahora-title-detail hide-lg hide-md"> 
+          <p>Estás reservando con el <span class="txt-grey-dark ">Dr. Javiera Salvador, Traumatología.</span></p>
+          <p>La hora es para <span class="txt-blue-medium">Eduardo Rojas Calderón</span> en el <span class="txt-grey-dark ">Centro médico IntegraMédica Manquehue</span> </p>
+        </div>
+        <div class="main-container">
+          <section>
+            <h4 class="section-subtitle">¿Cuándo quieres agendar?</h4>
+            <p class="section-leyend hide-sm">En los días marcados con color hay horas disponibles</p>
+          </section><br class="hide-sm"/>
+          <div class="box-select_hora">
+            <div class="select-box">
+              <div class="select-box_carrusel">
+                <select>
+                  <option value="Junio 2018">Junio 2018</option>
+                  <option value="Julio 2018">Julio 2018</option>
+                  <option value="Agosto 2018">Agosto 2018</option>
+                </select>
+              </div>
+            </div>
+            <div class="select-box">
+              <div class="select-box_carrusel">
+                <select onchange="javascript:location.href = this.value">
+                  <option value="bonos-reservahora.html">Semana del 15 al 21</option>
+                  <option value="bonos-reservahora2.html">Semana del 22 al 28</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="wrap-content full-width-mo">
+            <div class="reservahora-calendar_simple center">
+              <table id="reservahoraweek-table">
+                <thead>
+                  <tr> 
+                    <th> 
+                      <p>Lun</p>
+                    </th>
+                    <th> 
+                      <p>Mar</p>
+                    </th>
+                    <th> 
+                      <p>Mier</p>
+                    </th>
+                    <th> 
+                      <p>Jue</p>
+                    </th>
+                    <th> 
+                      <p>Vie</p>
+                    </th>
+                    <th> 
+                      <p>Sab</p>
+                    </th>
+                    <th> 
+                      <p>Dom</p>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td> <a class="linkreserva">15</a></td>
+                    <td><a class="linkreserva reservahr-recomendada">16</a></td>
+                    <td> <a class="linkreserva reservahr-recomendada">17</a></td>
+                    <td> <a class="reservahr-recomendada linkreserva">18</a></td>
+                    <td> <a class="linkreserva">19</a></td>
+                    <td> <a class="linkreserva">20</a></td>
+                    <td> <a class="linkreserva">21</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <p class="info-obligatory-mo hide-lg hide-md">* Son obligatorios</p><br class="hide-lg hide-md"/><br class="hide-lg hide-md"/>
+        </div>
+        <hr class="hide-lg hide-md"/><br class="hide"/><br/>
+        <div class="main-container">
+          <div class="brh-step2"></div>
+          <div class="wrap-content">
+            <section>
+              <h2 class="section-subtitle"><span class="astk-red">*</span> ¿Qué hora quieres reservar?</h2><br/>
+            </section>
+          </div>
+          <div class="narrow-container"> 
+            <div class="reservahora-ampm">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div class="title-box center"><img src="assets/icons/icon-am.svg" alt=""/>
+                    <p>Por la mañana</p><br/>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div class="title-box center"><img src="assets/icons/icon-pm.svg" alt=""/>
+                    <p class="afternoon">Por la tarde</p><br/>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div class="body-box">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 hide-sm row-time">
+                        <div class="rdbtn-area">
+                          <input type="radio" name="reservahorarbx" id="rhrbx1"/>
+                          <label class="check" for="rhrbx1">
+                            <p class="label-color-grey">00:00</p>
+                          </label>
+                        </div>
+                        <div class="rdbtn-area">
+                          <input type="radio" name="reservahorarbx" id="rhrbx2"/>
+                          <label class="check" for="rhrbx2">
+                            <p class="label-color-grey">00:00</p>
+                          </label>
+                        </div>
+                        <div class="rdbtn-area">
+                          <input type="radio" name="reservahorarbx" id="rhrbx3"/>
+                          <label class="check" for="rhrbx3">
+                            <p class="label-color-grey">00:00</p>
+                          </label>
+                        </div>
+                        <div class="rdbtn-area">
+                          <input type="radio" name="reservahorarbx" id="rhrbx4"/>
+                          <label class="check" for="rhrbx4">
+                            <p class="label-color-grey">00:00</p>
+                          </label>
+                        </div>
+                        <div class="reserva-ampm-box__hide">
+                          <div class="rdbtn-area">
+                            <input type="radio" name="reservahorarbx" id="rhrbxb1"/>
+                            <label class="check" for="rhrbxb1">
+                              <p class="label-color-grey">00:00</p>
+                            </label>
+                          </div>
+                          <div class="rdbtn-area">
+                            <input type="radio" name="reservahorarbx" id="rhrbxb2"/>
+                            <label class="check" for="rhrbxb2">
+                              <p class="label-color-grey">00:00</p>
+                            </label>
+                          </div>
+                          <div class="rdbtn-area">
+                            <input type="radio" name="reservahorarbx" id="rhrbxb3"/>
+                            <label class="check" for="rhrbxb3">
+                              <p class="label-color-grey">00:00</p>
+                            </label>
+                          </div>
+                          <div class="rdbtn-area">
+                            <input type="radio" name="reservahorarbx" id="rhrbxb4"/>
+                            <label class="check" for="rhrbxb4">
+                              <p class="label-color-grey">00:00</p>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 row-time">
+                        <div class="rdbtn-area">
+                          <input type="radio" name="reservahorarbx" id="rhrbx5"/>
+                          <label class="check" for="rhrbx5">
+                            <p class="label-color-grey">00:00</p>
+                          </label>
+                        </div>
+                        <div class="rdbtn-area">
+                          <input type="radio" name="reservahorarbx" id="rhrbx6"/>
+                          <label class="check" for="rhrbx6">
+                            <p class="label-color-grey">00:00</p>
+                          </label>
+                        </div>
+                        <div class="rdbtn-area">
+                          <input type="radio" name="reservahorarbx" id="rhrbx7"/>
+                          <label class="check" for="rhrbx7">
+                            <p class="label-color-grey">00:00</p>
+                          </label>
+                        </div>
+                        <div class="rdbtn-area">
+                          <input type="radio" name="reservahorarbx" id="rhrbx8"/>
+                          <label class="check" for="rhrbx8">
+                            <p class="label-color-grey">00:00</p>
+                          </label>
+                        </div>
+                        <div class="reserva-ampm-box__hide">
+                          <div class="rdbtn-area">
+                            <input type="radio" name="reservahorarbx" id="rhrbxa1"/>
+                            <label class="check" for="rhrbxa1">
+                              <p class="label-color-grey">00:00</p>
+                            </label>
+                          </div>
+                          <div class="rdbtn-area">
+                            <input type="radio" name="reservahorarbx" id="rhrbxa2"/>
+                            <label class="check" for="rhrbxa2">
+                              <p class="label-color-grey">00:00</p>
+                            </label>
+                          </div>
+                          <div class="rdbtn-area">
+                            <input type="radio" name="reservahorarbx" id="rhrbxa3"/>
+                            <label class="check" for="rhrbxa3">
+                              <p class="label-color-grey">00:00</p>
+                            </label>
+                          </div>
+                          <div class="rdbtn-area">
+                            <input type="radio" name="reservahorarbx" id="rhrbxa4"/>
+                            <label class="check" for="rhrbxa4">
+                              <p class="label-color-grey">00:00</p>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 last-col">
+                  <div class="body-box">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hide-sm row-time">
+                        <div class="rdbtn-area">
+                          <input type="radio" name="reservahorarbx" id="rhrbx1-pm"/>
+                          <label class="check" for="rhrbx1-pm">
+                            <p class="label-color-grey">00:00</p>
+                          </label>
+                        </div>
+                        <div class="rdbtn-area">
+                          <input type="radio" name="reservahorarbx" id="rhrbx2-pm"/>
+                          <label class="check" for="rhrbx2-pm">
+                            <p class="label-color-grey">00:00</p>
+                          </label>
+                        </div>
+                        <div class="rdbtn-area">
+                          <input type="radio" name="reservahorarbx" id="rhrbx3-pm"/>
+                          <label class="check" for="rhrbx3-pm">
+                            <p class="label-color-grey">00:00</p>
+                          </label>
+                        </div>
+                        <div class="rdbtn-area">
+                          <input type="radio" name="reservahorarbx" id="rhrbx4-pm"/>
+                          <label class="check" for="rhrbx4-pm">
+                            <p class="label-color-grey">00:00</p>
+                          </label>
+                        </div>
+                        <div class="reserva-ampm-box__hide">
+                          <div class="rdbtn-area">
+                            <input type="radio" name="reservahorarbx" id="rhrbxb1-pm"/>
+                            <label class="check" for="rhrbxb1-pm">
+                              <p class="label-color-grey">00:00</p>
+                            </label>
+                          </div>
+                          <div class="rdbtn-area">
+                            <input type="radio" name="reservahorarbx" id="rhrbxb2-pm"/>
+                            <label class="check" for="rhrbxb2-pm">
+                              <p class="label-color-grey">00:00</p>
+                            </label>
+                          </div>
+                          <div class="rdbtn-area">
+                            <input type="radio" name="reservahorarbx" id="rhrbxb3-pm"/>
+                            <label class="check" for="rhrbxb3-pm">
+                              <p class="label-color-grey">00:00</p>
+                            </label>
+                          </div>
+                          <div class="rdbtn-area">
+                            <input type="radio" name="reservahorarbx" id="rhrbxb4-pm"/>
+                            <label class="check" for="rhrbxb4-pm">
+                              <p class="label-color-grey">00:00</p>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 row-time">
+                        <div class="rdbtn-area">
+                          <input type="radio" name="reservahorarbx" id="rhrbx5-pm"/>
+                          <label class="check" for="rhrbx5-pm">
+                            <p class="label-color-grey">00:00</p>
+                          </label>
+                        </div>
+                        <div class="rdbtn-area">
+                          <input type="radio" name="reservahorarbx" id="rhrbx6-pm"/>
+                          <label class="check" for="rhrbx6-pm">
+                            <p class="label-color-grey">00:00</p>
+                          </label>
+                        </div>
+                        <div class="rdbtn-area">
+                          <input type="radio" name="reservahorarbx" id="rhrbx7-pm"/>
+                          <label class="check" for="rhrbx7-pm">
+                            <p class="label-color-grey">00:00</p>
+                          </label>
+                        </div>
+                        <div class="rdbtn-area">
+                          <input type="radio" name="reservahorarbx" id="rhrbx8-pm"/>
+                          <label class="check" for="rhrbx8-pm">
+                            <p class="label-color-grey">00:00</p>
+                          </label>
+                        </div>
+                        <div class="reserva-ampm-box__hide">
+                          <div class="rdbtn-area">
+                            <input type="radio" name="reservahorarbx" id="rhrbxa1-pm"/>
+                            <label class="check" for="rhrbxa1-pm">
+                              <p class="label-color-grey">00:00</p>
+                            </label>
+                          </div>
+                          <div class="rdbtn-area">
+                            <input type="radio" name="reservahorarbx" id="rhrbxa2-pm"/>
+                            <label class="check" for="rhrbxa2-pm">
+                              <p class="label-color-grey">00:00</p>
+                            </label>
+                          </div>
+                          <div class="rdbtn-area">
+                            <input type="radio" name="reservahorarbx" id="rhrbxa3-pm"/>
+                            <label class="check" for="rhrbxa3-pm">
+                              <p class="label-color-grey">00:00</p>
+                            </label>
+                          </div>
+                          <div class="rdbtn-area">
+                            <input type="radio" name="reservahorarbx" id="rhrbxa4-pm"/>
+                            <label class="check" for="rhrbxa4-pm">
+                              <p class="label-color-grey">00:00</p>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="info-obligatory hide-sm">* Información obligatoria</p>
+            <p class="info-obligatory-mo hide-lg hide-md">* Son obligatorios</p><br/><br/>
+            <section class="center">
+              <h2 class="section-subtitle">Te enviaremos el comprobante de la reserva al siguiente correo</h2>
+            </section>
+            <div class="wrap-content">
+              <div class="send-legal-reserva">
+                <div class="inputtxt-box">
+                  <div class="form-title">Correo electrónico</div>
+                  <input class="mail" type="text" value="eduardo.rojas@gmail.com"/>
+                </div>
+                <div class="terms-and-conditions">
+                  <div class="form-group">
+                    <label class="form-check-label" for="checkTerms"> <span class="term_txt">Acepto recibir correspondencia electrónica de Isapre CruzBlanca en mi correo.</span>
+                      <input class="form-check-input" type="checkbox" name="cbxTerms" id="checkTerms"/><span class="checkmark"></span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div><br/>
+            <div class="btn-area_single"> 
+              <button class="item-btn-area_single btn-blue" id="btn-reservahora" onclick="window.location.href='bonos-reservahora_exito.html'"><span> Reservar</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-bottom totem"><a href="#">
+        <div class="btn-gray"><img src="assets/icons/icon-volverizq.svg" alt=""/>
+          <p>Volver</p>
+        </div></a><a href="#">
+        <div class="btn-outline-blue">
+          <p>Cerrar Sesión</p>
+        </div></a></div>
+  </body>
+</html>
+<script src="js/libs/jquery-3.3.1.min.js"></script>
+<script src="js/libs/bootstrap.min.js"></script>
+<script src="js/funciones-bonos.js"></script>

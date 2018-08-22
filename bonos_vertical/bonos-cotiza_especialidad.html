@@ -1,0 +1,97 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="icon" type="image/x-icon" href="./assets/icons/favicon/favicon-bupa.png"/>
+    <link rel="stylesheet" href="css/libs/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <title>Cruz Blanca</title>
+  </head>
+  <body>
+    <div class="cotiza-nueva-consulta-especialidad">
+      <div class="cnc_area1">
+        <div class="narrow-container">
+          <section>
+            <h1 class="section-title section-title_desk">Cotizar nueva consulta por especialidad</h1>
+            <p class="info-obligatory hide-sm">* Información obligatoria</p>
+            <div class="hide-lg hide-md">
+              <div class="link-area"> <a class="link-style" href="bonos-cotizanuevaconsulta.html">Realizar otra búsqueda</a></div><br/>
+              <p>Datos consulta</p>
+              <p class="info-obligatory-mo hide-lg hide-md">* Son obligatorios</p>
+            </div>
+            <h4 class="hide-sm">Datos para la consulta</h4>
+          </section>
+          <div class="cnc_form">
+            <div class="wrap-content">
+              <div class="inputtxt-box2"> 
+                <h4 class="form-title">Especialidad del médico</h4>
+                <p class="asterisc top">*</p>
+                <input id="espeId" type="text" placeholder="Ingresa especialidad"/>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-6 no-padding_mobil no-padd-left">
+                  <div class="select-box">
+                    <h4 class="form-title">Región</h4>
+                    <p class="asterisc top">*</p>
+                    <div class="select-box_area">
+                      <select id="espeRegion">
+                        <option active="active" value="">Selecciona región</option>
+                        <option value="Metropolitana">Metropolitana</option>
+                        <option value="Valparaiso">Valparaiso</option>
+                        <option value="BioBío">BioBío</option>
+                        <option value="Magallanes">Magallanes</option>
+                        <option value="Los Ríos">Los Ríos</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 no-padding_mobil no-padd-left">
+                  <div class="select-box">
+                    <h4 class="form-title">Comuna </h4>
+                    <p class="asterisc top">*</p>
+                    <div class="select-box_area">
+                      <select id="espeCiudad">
+                        <option active="active" value="">Selecciona comuna</option>
+                        <option value="Pedro Aguirre Cerda">Pedro Aguirre Cerda</option>
+                        <option value="La Reina">La Reina</option>
+                        <option value="Las Condes">Las Condes</option>
+                        <option value="San Bernardo">San Bernardo</option>
+                        <option value="Puente Alto">Puente Alto</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div><br class="hide-lg hide-md"/>
+              <div class="btn-area_single">
+                <button class="item-btn-area_single btn-next" onclick="window.location.href='bonos-cotiza_especialidadResultado.html'" id="btn-bono-selEspe">Buscar</button>
+              </div>
+              <div class="blue-box_result hide-sm">
+                <p class="title">Te atendiste anteriormente con:</p><a href="#">
+                  <p class="item">Javiera Salvador (Traumatología)</p></a><a href="#">
+                  <p class="item">Francisco Pérez (Geriatría)</p></a><a href="#">
+                  <p class="item">Patricia Pimienta (Oftalmología)</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blue-box_result hide-lg hide-md">
+          <p class="title">Te atendiste anteriormente con:</p><a href="#">
+            <p class="item">Javiera Salvador (Traumatología)</p></a><a href="#">
+            <p class="item">Francisco Pérez (Geriatría)</p></a><a href="#">
+            <p class="item">Patricia Pimienta (Oftalmología)</p></a>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-bottom totem"><a href="#">
+        <div class="btn-gray"><img src="assets/icons/icon-volverizq.svg" alt=""/>
+          <p>Volver</p>
+        </div></a><a href="#">
+        <div class="btn-outline-blue">
+          <p>Cerrar Sesión </p>
+        </div></a></div>
+  </body>
+</html>
+<script src="js/libs/jquery-3.3.1.min.js"></script>
+<script src="js/libs/bootstrap.min.js"></script>

@@ -1,0 +1,190 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="icon" type="image/x-icon" href="./assets/icons/favicon/favicon-bupa.png"/>
+    <link rel="stylesheet" href="css/libs/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <title>Cruz Blanca</title>
+  </head>
+  <body>
+    <div class="cotiza-nueva-consulta-especialidad">
+      <div class="cnc_area2">
+        <div class="narrow-container">
+          <section>
+            <h1 class="section-title section-title_desk">Resultado de búsqueda</h1>
+            <h4 class="section-leyend">Traumatología, Región Metropolitana, Santiago.</h4>
+          </section>
+          <div class="cnc_form hide-sm">
+            <div class="filtros hide-sm">
+              <div class="box-filtro btn-filter-desk"><img src="assets/icons/icon-filter.svg" alt=""/><span class="txt-filter-mo">Filtrar listado</span></div>
+              <div class="box-filtro_campos hide">
+                <select class="selectStyle">
+                  <option value="hide">Centro médico</option>
+                  <option value="Option1">Option 1</option>
+                  <option value="Option2">Option 2</option>
+                  <option value="Option3">Option 3</option>
+                  <option value="Option4">Option 4</option>
+                  <option value="Option5">Option 5</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="hide-lg hide-md"> 
+            <div class="list-item">
+              <div class="header-box">
+                <div class="row">
+                  <div class="right-filter"><a data-target="#filtros-modal2" data-toggle="modal"><span class="txt-filter-mo">Filtrar listado</span><img src="assets/icons/icon-filter.svg" alt=""/></a>
+                    <div class="action-sheet modal fade" id="filtros-modal2" tabindex="-1" role="dialog" aria-labelledby="filtros-modalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h5 class="modal-title_small" id="filtros-modalLabel">Filtros</h5>
+                          </div>
+                          <div class="modal-body">
+                            <div id="accordion">
+                              <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                  <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed btn_filter-acc" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><span id="choosenPacient">Centro médico</span><img src="assets/icons/icon-arrow-bottom.svg" alt=""/></button>
+                                  </h5>
+                                </div>
+                                <div class="collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordion">
+                                  <div class="card-body">
+                                    <ul> 
+                                      <li><a class="pacient">Titular</a></li>
+                                      <li> <a class="pacient">Paciente 1</a></li>
+                                      <li> <a class="pacient">Paciente 2</a></li>
+                                      <li> <a class="pacient">Paciente 3</a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card">
+                                <div class="card-header" id="headingThree">
+                                  <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed btn_filter-acc" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><span id="choosenState">Especialidad</span><img src="assets/icons/icon-arrow-bottom.svg" alt=""/></button>
+                                  </h5>
+                                </div>
+                                <div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#accordion">
+                                  <div class="card-body">
+                                    <ul> 
+                                      <li><a class="state">Aprobada</a></li>
+                                      <li> <a class="state">Pendiente</a></li>
+                                      <li> <a class="state">Rechazada</a></li>
+                                      <li> <a class="state">Devuelto</a></li>
+                                      <li> <a class="state">Pagada</a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer center">
+                            <button class="btn-blue" type="button" data-dismiss="modal" aria-label="Close">Filtrar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="searchBar-movil"><img src="assets/icons/icon-search.svg" alt=""/>
+                <input type="text" placeholder="Buscar por nombre corto"/>
+              </div>
+            </div>
+          </div>
+          <div class="table-area">
+            <table class="table" id="especonsulta">
+              <thead class="hide-sm">
+                <tr>
+                  <th>Centro médico</th>
+                  <th>Especialidad</th>
+                  <th>Valor Aproximado</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td> 
+                    <p>IntegraMédica Barcelona</p><span class="date hide-md hide-lg"> Traumatología</span><span class="date hide-md hide-lg"> Última visita: 03/03/18</span>
+                  </td>
+                  <td>
+                    <p class="hide-sm">Traumatología</p>
+                    <p class="hide-md hide-lg"> </p>
+                  </td>
+                  <td><img class="star" src="assets/icons/icon-mejorprecio.svg" alt=""/><span class="date valor hide-md hide-lg">Valor aprox.</span>
+                    <p>$ 4.784</p><a class="tabla-linkEspe" href="bonos-cotiza_especialidadElegir.html"><img src="assets/icons/icon-arrow-right.svg" alt=""/></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td> 
+                    <p>IntegraMédica Barcelona</p><span class="date hide-md hide-lg"> Traumatología</span><span class="date hide-md hide-lg"> Última visita: 03/03/18</span>
+                  </td>
+                  <td>
+                    <p class="hide-sm">Traumatología</p>
+                    <p class="hide-md hide-lg"> </p>
+                  </td>
+                  <td><span class="date valor hide-md hide-lg">Valor aprox.</span>
+                    <p>$ 4.784</p><a class="tabla-linkEspe" href="bonos-cotiza_especialidadElegir.html"><img src="assets/icons/icon-arrow-right.svg" alt=""/></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td> 
+                    <p>IntegraMédica Barcelona</p><span class="date hide-md hide-lg"> Traumatología</span><span class="date hide-md hide-lg"> Última visita: 03/03/18</span>
+                  </td>
+                  <td>
+                    <p class="hide-sm">Traumatología</p>
+                    <p class="hide-md hide-lg"> </p>
+                  </td>
+                  <td><span class="date valor hide-md hide-lg">Valor aprox.</span>
+                    <p>$ 4.784</p><a class="tabla-linkEspe" href="bonos-cotiza_especialidadElegir.html"><img src="assets/icons/icon-arrow-right.svg" alt=""/></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td> 
+                    <p>IntegraMédica Barcelona</p><span class="date hide-md hide-lg"> Traumatología</span><span class="date hide-md hide-lg"> Última visita: 03/03/18</span>
+                  </td>
+                  <td>
+                    <p class="hide-sm">Traumatología</p>
+                    <p class="hide-md hide-lg"> </p>
+                  </td>
+                  <td><span class="date valor hide-md hide-lg">Valor aprox.</span>
+                    <p>$ 4.784</p><a class="tabla-linkEspe" href="bonos-cotiza_especialidadElegir.html"><img src="assets/icons/icon-arrow-right.svg" alt=""/></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td> 
+                    <p>IntegraMédica Barcelona</p><span class="date hide-md hide-lg"> Traumatología</span><span class="date hide-md hide-lg"> Última visita: 03/03/18</span>
+                  </td>
+                  <td>
+                    <p class="hide-sm">Traumatología</p>
+                    <p class="hide-md hide-lg"> </p>
+                  </td>
+                  <td><span class="date valor hide-md hide-lg">Valor aprox.</span>
+                    <p>$ 4.784</p><a class="tabla-linkEspe" href="bonos-cotiza_especialidadElegir.html"><img src="assets/icons/icon-arrow-right.svg" alt=""/></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="link-area hide-lg-hide-md"><img class="star" src="assets/icons/icon-mejorprecio.svg" alt=""/>
+            <p class="star-txt">Más recomendado</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-bottom totem"><a href="#">
+        <div class="btn-gray"><img src="assets/icons/icon-volverizq.svg" alt=""/>
+          <p>Volver</p>
+        </div></a><a href="#">
+        <div class="btn-outline-blue">
+          <p>Cerrar Sesión</p>
+        </div></a></div>
+  </body>
+</html>
+<script src="js/libs/jquery-3.3.1.min.js"></script>
+<script src="js/libs/bootstrap.min.js"></script>
+<script src="js/funciones-bonos.js"></script>
